@@ -4,6 +4,8 @@ import MainBody from './componants/MainBody'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Shorts from './componants/SubPages/Shorts'
 import Subscriptions from './componants/SubPages/Subscriptions'
+import Channel from './componants/SubPages/Channel'
+import Video from './componants/SubPages/Video'
 
 
 function App() {
@@ -45,6 +47,28 @@ function App() {
             <div style={divStyle}>
               <SideMenu />
               <Subscriptions />
+            </div>
+          </div>,
+      },
+      {
+        path:'/channel',
+        element:
+          <div>
+            <Header />
+            <div style={divStyle}>
+              <SideMenu />
+              <Channel />
+            </div>
+          </div>,
+      },
+      {
+        path:'/video',
+        element:
+          <div>
+            <Header />
+            <div style={divStyle}>
+              <SideMenu />
+              <Video />
             </div>
           </div>,
       },
