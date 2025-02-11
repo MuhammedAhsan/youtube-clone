@@ -77,6 +77,16 @@ h1 {
   background: #717171; 
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ababab;
+  border-radius: 8px;
+}
+
+
 /* *{
   border: 1px solid red;
 } */
