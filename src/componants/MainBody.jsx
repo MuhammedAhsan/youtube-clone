@@ -26,6 +26,8 @@ const MainBody = () => {
 
       <VideoComponant thumbnail={videos.thumbnail} channelImg={videos.channelImg} title={videos.title} channelName={videos.channelName} views={videos.views} publishTimeAgo={videos.publishTimeAgo} />
 
+      <VideoComponant thumbnail={videos.thumbnail} channelImg={videos.channelImg} title={videos.title} channelName={videos.channelName} views={videos.views} publishTimeAgo={videos.publishTimeAgo} />
+
     </div>
   )
 }

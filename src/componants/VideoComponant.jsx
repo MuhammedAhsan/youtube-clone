@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 
 const VideoComponant = ({thumbnail, channelImg, title, channelName, views, publishTimeAgo}) => {
     const thumbnailStyle = {
-        width:"200px",
+        width:"250px",
         height:"auto",
     }
 
@@ -23,8 +23,12 @@ const VideoComponant = ({thumbnail, channelImg, title, channelName, views, publi
         padding:"0px"
     }
 
+    const videoCard = {
+        
+    }
+
   return (
-    <div>
+    <div style={videoCard}>
         <Link to="/video">
             <Link to="/video"><img src={thumbnail} alt="thumbnail" style={thumbnailStyle} /></Link>
 
